@@ -1,0 +1,2 @@
+    - When I didn't know the function associated i just put words asociated and tryed to see if ther were any relevent auto fils.
+    - If I am struggling an a part will more on to the next so I am not spending to much time on one thing.
