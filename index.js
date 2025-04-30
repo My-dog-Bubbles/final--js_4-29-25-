@@ -6,22 +6,25 @@ let date = document.getElementById("date")
 let taskmanager = document.getElementById("taskmanager")
 const submit =  document.getElementById("submit")
 const remove = document.getElementById("remove")
-
+remove.style.display = "none";
+a=0;
+b=0;
+let deckList = [{'yup':'nooo',a:0,b:3}]
+console.log('decklist',deckList.length)
 submit.addEventListener('click',function(){
+    ifImportant = importance.checked 
+    console.log(ifImportant)
     console.log(task.value)
-    deckList += [task.value] // this is not working (it removes the previous code)
-    console.log(deckList)
-    for(let i=0; i < deckList; i++){
-        i++
-    }
-    if(importance.value == 'yes'){
-        importance.value = true
-    } else{
-        importance.value = false
+
+    // add a table to show the task name, date, if the task is completed, if the user wants to delete a task
+    if(ifImportant == true){
+        // add css styleing 
+        console.log(ifImportant)
     }
 
     if(priority.value == "high"){
         // add code for formatting
+        // value.style
         console.log(priority.value)
     } else if (priority.value == "low"){
         // add code for formatting
@@ -30,16 +33,28 @@ submit.addEventListener('click',function(){
         // add code for formatting
         console.log(priority.value)
     }
+    
+    // let row = document.createElement('tr')
+    // document.appendChild("row")
+
+    let i = 0
+    console.log('decklist',deckList.length , 'deck+1',deckList.length+1) 
+    for(i; i<deckList.length;i++){
+        console.log(deckList[i])
+    }
 
     let taskDeck = {
-        id: i, // will a task to list then display the index it is at 
+        id: i+1, 
         name: task.value,
         priority: priority.value,
-        isImportant: importance.value, //ToF stands for true or false
-            // I wanna add a function to see if true or false was checked on the check box
-        isComplete: YoN, // YoN means yes or no
+        isImportant: ifImportant,
+        isComplete: "YoN", // YoN means yes or no
             // when displayed the user can toggle yes or no (ask mr. Gardener he wants us to toggle this before of after the display)
-        date: date.value,
+        date: "date.value",
     } 
+    deckList[i]=taskDeck // adds task to task deck
+    console.log(deckList[i])
+    console.log(JSON.stringify(deckList))
 })
+
 

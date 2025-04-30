@@ -1,2 +1,4 @@
-    - When I didn't know the function associated i just put words asociated and tryed to see if ther were any relevent auto fils.
+    - When I didn't know the function associated with what i just put words that I think wouold be associated and try to see if ther are any relevent in auto fils.
     - If I am struggling an a part will more on to the next so I am not spending to much time on one thing.
+    - when I realy don't remeber what to do the I look through my past git hub repositores and keep a positive adtitude.
+    - comment on things are not working so I know what to work on tomorrow.
