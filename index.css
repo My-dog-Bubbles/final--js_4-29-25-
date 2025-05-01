@@ -1,0 +1,12 @@
+#display{
+    align-items: center;
+    padding-left: 40%;
+}
+#main{
+    border: 50px;
+}
+#data{
+    font-size: large;
+    border: 20px;
+
+}

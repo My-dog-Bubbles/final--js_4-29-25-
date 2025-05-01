@@ -2,3 +2,4 @@
     - If I am struggling an a part will more on to the next so I am not spending to much time on one thing.
     - when I realy don't remeber what to do the I look through my past git hub repositores and keep a positive adtitude.
     - comment on things are not working so I know what to work on tomorrow.
+    - iff ishave code the is written with css I would go the the css file and see what type of styles I could apply.
